@@ -7,13 +7,11 @@ namespace TicTacToe_MinMax
     /// </summary>
     public class InvalidMoveException : Exception
     {
-        public InvalidMoveException()
-            : base()
+        public InvalidMoveException() : base()
         {
         }
 
-        public InvalidMoveException(string msg)
-            : base(msg)
+        public InvalidMoveException(string msg) : base(msg)
         {
         }
     }
