@@ -1,8 +1,8 @@
 ﻿namespace TicTacToe_MinMax
 {
     /// <summary>
-/// Represents a tic-tac-toe move
-/// </summary>
+    /// Represents a tic-tac-toe move
+    /// </summary>
     public class TicTacToeMove
     {
         public TicTacToeMove(int position, Board.Pieces piece)
