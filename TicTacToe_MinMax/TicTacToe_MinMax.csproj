@@ -53,9 +53,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HumanPlayer.cs" />
     <Compile Include="InvalidMoveException.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerMovedArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TicTacToeGame.cs" />
     <Compile Include="TicTacToeMove.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
